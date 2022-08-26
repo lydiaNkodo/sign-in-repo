@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 238, 252);
+   
+}
+
+.botn{
+    background-color: red;
+    color: white;
+}
+.d-flex{
+    gap: 1rem;
+    background-color: white;
+    
+}
+.user{
+    margin-top: 5px;
+    background-color: #403870;
+}
+.lock{
+    margin-top: 5px;
+    background-color: white;
+}
+.env{
+    background-color: #403870;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main{
+    color: rgb(81, 167, 118);
+    font-size: 16px;
+    justify-content: center;
+    
+}
+.first{
+    color:gray;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    background-color: white;
+   
+}
+.second{
+    color:gray;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    background-color: #403870;
+   
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border: none; */
+    outline: none;
+    width: 30rem;
+    /* background-color: white; */
+    
+
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    background-color: white;
+}
+.password{
+    display: flex;
+    gap: .7rem;
+}
+
+.card{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    height: 300px;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.card1{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    height: 300px;
+    background-color: #403870;
+    margin-top: 1rem;
+}
+.sign-up1 > button{
+    background-image: linear-gradient(rgb(233, 157, 233), rgba(221, 123, 139, 0.788));
+/* background-color: pink !important; */
+font-weight: bold;
+margin-top: 15px;
+height: 4rem;
+
+} 
+.main1{
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    background-color: #403870;
+    
+}
+.first1{
+    color: white;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    background-color: #403870;
+    /* border-bottom: 1px solid white; */
+   
+}
+
+.env1{
+    background-color: #403870;
+}
+.user{
+    margin-top: 5px;
+    background-color: #403870; 
+}
+
+.input1{
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    /* width: 80%; */
+    
+    
+}
+.input2{
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border: none; */
+    outline: none;
+    /* width: 30rem; */
+    border-bottom: 1px solid gray;
+    
+    
+}
+.input3{
+    background-color: #403870;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    /* width: 80%; */
+    
+    
+}
+.input4{
+    background-color: #403870;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border: none; */
+    outline: none;
+    /* width: 30rem; */
+    border-bottom: 1px solid white;
+    
+    
+}
+
+.second-password {
+    background-color: #403870;
+}
+
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    background-color: #403870;
+}
+
+.sign-up2 > button{
+    background-color: white;
+color: rgb(235, 119, 77);
+margin-top: 15px;
+font-weight: bold;
+height: 4rem;
+
+} 
+
+.email ::placeholder {
+    color: white;
+}
+.second-password ::placeholder {
+    color: white;
+}
+
+
+@media (max-width:768px) {
+    input{
+        width: 15rem;
+    }
+}
+@media (max-width:1024px) {
+    input{
+        width: 15rem;
+    }
+}
